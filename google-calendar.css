@@ -1,0 +1,14 @@
+﻿/* Hide headlines in navigation. This completely hides the mini calendar. */
+#nav h2 {
+	display: none !important;
+}
+
+/* Hide "Add a friend's calendar" */
+#searchAddCalBox {
+	display: none !important;
+}
+
+/* Hide tasks calendar */
+#label-dGFza3NAdGFza3MuZ29vZ2xlLmNvbQ {
+	display: none !important;
+}

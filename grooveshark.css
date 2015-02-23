@@ -1,0 +1,11 @@
+/* Remove ads */
+#theme-header-inner,
+.home-capital,
+.decoupledCapital,
+.upgrade-btn {
+	display: none !important;
+}
+#page-content.home .small-home-section .home-content-container,
+#page-content.home .small-home-section {
+	width: 100% !important;
+}

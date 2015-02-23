@@ -1,0 +1,28 @@
+﻿{
+	"name": "Jannes' User Styles",
+	"version": "1.0",
+	"manifest_version": 2,
+
+	"icons": {
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [ "*://www.google.com/calendar/*" ],
+			"css": [ "google-calendar.css" ]
+		},
+		{
+			"matches": [ "*://*.wikipedia.org/*" ],
+			"css": [ "wikipedia.css" ]
+		},
+		{
+			"matches": [ "*://grooveshark.com/*" ],
+			"css": [ "grooveshark.css" ]
+		},
+		{
+			"matches": [ "*://news.ycombinator.com/*" ],
+			"css": [ "hn.css" ]
+		}
+	]
+}

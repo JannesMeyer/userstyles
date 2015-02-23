@@ -1,0 +1,47 @@
+﻿#p-navigation,
+#p-interaction,
+#p-coll-print_export,
+#p-Mitmachen, /* German Wikipedia */
+
+/* Tools */
+#t-recentchangeslinked,
+#t-upload,
+#t-specialpages,
+#t-info,
+#t-wikibase,
+#t-print {
+	display: none !important;
+}
+
+/* Hide separators */
+#mw-panel > .portal {
+	background: none !important;
+	margin-bottom: 10px !important;
+}
+
+/* First, hide all language links */
+#p-lang li,
+#p-lang .wb-langlinks-edit,
+#p-lang .uls-settings-trigger {
+	display: none !important;
+}
+
+/* Then re-show those languages, which you actually understand */
+#p-lang .interwiki-en,
+#p-lang .interwiki-de,
+#p-lang .interwiki-es {
+	display: list-item !important;
+}
+
+/*#centralNotice {
+	display: none !important;
+}
+#mw-page-base {
+	margin-top: 0 !important;
+}
+#mw-head {
+	top: 0 !important;
+}
+#mw-panel {
+	top: 160px !important;
+}*/

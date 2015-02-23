@@ -1,0 +1,26 @@
+body {
+	margin-top: 10px;
+	background: #f6f6ef;
+}
+
+#hnmain {
+	width: 100% !important;
+	max-width: 1024px;
+}
+
+/* Add padding below orange bar */
+#hnmain > tbody > tr:nth-child(2) {
+	height: 16px !important;
+}
+
+/* Remove numbers and add padding on the frontpage */
+#hnmain > tbody > tr:nth-child(3) > td > table:first-child > tbody > tr > td > span.rank {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	width: 12px;
+}
+#hnmain > tbody > tr:nth-child(3) > td > table:first-child > tbody > tr > td.subtext {
+	height: 22px;
+	vertical-align: top;
+}
